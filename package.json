@@ -1,0 +1,27 @@
+{
+  "name": "github-new",
+  "version": "0.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Michael Heap <m@michaelheap.com> (https://michaelheap.com)",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^18.0.12",
+    "debug": "^4.3.1",
+    "simple-git": "^2.31.0",
+    "yargs": "^16.2.0"
+  },
+  "bin": {
+    "ghn": "./bin.js",
+    "github-new": "./bin.js"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "jest-when": "^3.0.1"
+  },
+  "files": ["index.js", "bin.js", "shouldUseHttpRemote.js"]
+}
