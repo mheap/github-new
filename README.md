@@ -1,3 +1,7 @@
+# You should use `gh repo create` from the [official GitHub CLI](https://github.com/cli/cli) instead of this
+
+<hr />
+
 # github-new
 
 Create new GitHub repositories from the command line! Run `github-new` (or `ghn` for short) and this tool will create a new GitHub repository with the same name as the current folder and configure the `origin` remote to point at the new repo.
